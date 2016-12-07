@@ -9,19 +9,43 @@ html, body {
    to{opacity:1;}
 }
 
+@keyframes fadeout{
+   from{opacity:1;}
+   to{opacity:0;}
+}
+
 .page-load {
-	background-image: url("../Images/logo.png");
+	/*background-image: url("../Images/logo.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
+	display: block;
+	position: relative;
 	background-color: #ffffff;
 	height: 100%;
 	width: 100%;
-	margin: 0;
+	padding: 0;
 	animation: fadein 4s;
 }
+
+.page-load .row {
+	margin: 0;
+}
+
+.page-load .logo {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+    vertical-align: middle;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
 .helmet{
 	height:100%;
 	width:100%;
 	margin:0;
 }
+
