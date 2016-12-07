@@ -1,0 +1,15 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.page-load {
+	background-image: url("Images/logo.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-color: #ffffff;
+	height: 600px;
+	margin: auto;
+}
